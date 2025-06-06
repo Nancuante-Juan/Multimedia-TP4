@@ -8,29 +8,53 @@
 	<link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
+	<!--Barra de navegación-->
 	<header>
-		<h1>Compuventa</h1>
+		<nav>
+            <div class="title">
+                <h1>Un muy buen nombre</h1>
+            </div>
+            <ul>
+                <li><a href="about:blank">Inicio</a></li>
+                <li><a href="about:blank">CPU</a></li>
+                <li><a href="about:blank">GPU</a></li>
+                <li><a href="about:blank">RAM</a></li>
+				<li><a href="about:blank">Motherboard</a></li>
+				<li><a href="about:blank">Almacenamiento</a></li>
+				<li><a href="about:blank">PSU</a></li>
+            </ul>
+        </nav>
 	</header>
 
-	<div class="content" >
-		<h2>Top 3</h2>
-			<div class="card" style="width: 18rem;">
-				<img src="..." class="card-img-top" alt="...">
-				<div class="card-body">
-					<h5 class="card-title">Card title</h5>
-					<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-					<a href="#" class="btn btn-primary">Go somewhere</a>
-				</div>
-			</div>
-			<div class="card" style="width: 18rem;">
-				<img src="..." class="card-img-top" alt="...">
-				<div class="card-body">
-					<h5 class="card-title">Card title</h5>
-					<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-					<a href="#" class="btn btn-primary">Go somewhere</a>
-				</div>
-			</div>
+
+	<!--INTRO-->
+	<div id="carouselExample" class="carousel slide">
+	<div class="carousel-inner"> <!--NOTA: Todas las imágenes DEBEN ser de la misma resolución-->
+		<div class="carousel-item active">
+		<img src="https://http2.mlstatic.com/D_NQ_NP_2X_749564-MLA83129702067_032025-F.webp" class="d-block w-100" alt="...">
+		</div>
+		<div class="carousel-item">
+		<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fbing.com%2Fth%2Fid%2FOIP._o44lRFJpOw1eEORtZmM0gHaLI%3Fr%3D0%26cb%3Dthvnextc2%26pid%3DApi&f=1&ipt=f7bd0b866d55199b81cb939f3317b199d4f4c0d2b324096542c6af2370b47743&ipo=images" class="d-block w-100" alt="...">
+		</div>
+		<div class="carousel-item">
+		<img src="https://http2.mlstatic.com/D_NQ_NP_2X_749564-MLA83129702067_032025-F.webp" class="d-block w-100" alt="...">
 		</div>
 	</div>
+	<button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+		<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		<span class="visually-hidden">Previous</span>
+	</button>
+	<button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+		<span class="carousel-control-next-icon" aria-hidden="true"></span>
+		<span class="visually-hidden">Next</span>
+	</button>
+	</div>
+
+	<!--Contenido-->
+	<div class="principal">
+		<h2>Procesadores</h2>
+	</div>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
 </body>
 </html>
