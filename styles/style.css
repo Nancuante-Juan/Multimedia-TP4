@@ -1,11 +1,18 @@
 body{
 	font-family: sans-serif;
-	align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
 }
 
 
 /* NAVBAR */
+header{
+    width: 100%;
+}
 nav{
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -34,7 +41,14 @@ li>a:hover{
 	background-color: blue;
 }
 
-/* Contenido */
-.pricipal{
-	max-width: 1000px;
+.horizontal{
+    display: flex;
+}
+
+.boton{
+	color: white;
+    padding: 10px;
+	border-radius: 12px;
+    text-align: center;
+	background-color: blue;
 }

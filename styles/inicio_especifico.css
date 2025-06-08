@@ -1,0 +1,29 @@
+/* Contenido */
+.principal{
+	max-width: 1000px;
+    width: 100%;
+	gap: 20px;
+	display: flex;
+	flex-direction: column;
+}
+
+.slide{
+    width: 100%;
+}
+
+.titulo_categoria{
+	justify-content: space-between;
+}
+
+.categoria{
+	padding: 20px;
+	border-radius: 20px;
+	gap: 10px;
+	background-color: aliceblue;
+}
+
+.contenido_categoria{
+	display: flex;
+	gap: 20px;
+	justify-content: space-between;
+}
