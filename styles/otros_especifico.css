@@ -11,3 +11,28 @@
 .horizontal{
 	gap: 20px;
 }
+
+.filtros{
+	justify-content: space-between;
+}
+
+.filtros>input{
+	padding: 4px 10px;
+	height: 36px;
+	background-color: #6f228b5e;
+	border: 2px solid #b44cda;
+	color: #b44cda;
+	border-radius: 24px;
+}
+
+.filtros>.horizontal{
+	align-items: center;
+}
+.filtros>.horizontal>select{
+	padding: 4px 10px;
+	height: 36px;
+	background-color: #6f228b5e;
+	border: 2px solid #b44cda;
+	color: #b44cda;
+	border-radius: 24px;
+}
