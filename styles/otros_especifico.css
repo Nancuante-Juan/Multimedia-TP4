@@ -12,11 +12,15 @@
 	gap: 20px;
 }
 
-.filtros{
+.el_comienzo_de_todo{
+	align-items: normal;
+}
+
+.busqueda{
 	justify-content: space-between;
 }
 
-.filtros>input{
+input{
 	padding: 4px 10px;
 	height: 36px;
 	background-color: #6f228b5e;
@@ -25,14 +29,33 @@
 	border-radius: 24px;
 }
 
-.filtros>.horizontal{
-	align-items: center;
-}
-.filtros>.horizontal>select{
+select{
 	padding: 4px 10px;
 	height: 36px;
 	background-color: #6f228b5e;
 	border: 2px solid #b44cda;
 	color: #b44cda;
 	border-radius: 24px;
+}
+
+.filtros{
+	width: 250px;
+	gap: 4px;
+	display: flex;
+	flex-direction: column;
+}
+.filtros>.horizontal{
+	gap: 4px;
+}
+
+.check{
+	padding: 0;
+	height: 24px;
+	width: 24px;
+	accent-color: #b44cda;
+}
+
+h6{
+	margin-top: 16px;
+	margin-bottom: 0;
 }
