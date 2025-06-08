@@ -36,15 +36,19 @@ ul li{
 li>a{
 	list-style: none;
 	color: white;
-    padding: 10px 10px;
+    padding: 8px 20px;
 	text-decoration: none;
 }
 li>a:hover{
-	border-radius: 12px;
+	border-radius: 10px;
 	background-color: blue;
 }
 
 /* CONTENIDO */
+.principal{
+	max-width: 1000px;
+    width: 100%
+}
 
 .horizontal{
     display: flex;
@@ -52,8 +56,8 @@ li>a:hover{
 
 .boton{
 	color: white;
-    padding: 10px 20px;
-	border-radius: 12px;
+    padding: 8px 20px;
+	border-radius: 10px;
     text-align: center;
 	background-color: blue;
     text-decoration: none;
@@ -70,4 +74,7 @@ li>a:hover{
 }
 .card>.btn{
 	border-radius: 0 0 10px 10px;
+}
+h2{
+    margin-bottom: 0;
 }
