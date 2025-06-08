@@ -12,6 +12,12 @@
 	gap: 20px;
 }
 
+.vertical{
+	gap: 20px;
+	display: flex;
+	flex-direction: column;
+}
+
 .el_comienzo_de_todo{
 	align-items: normal;
 }
@@ -58,4 +64,8 @@ select{
 h6{
 	margin-top: 16px;
 	margin-bottom: 0;
+}
+
+.principal>.horizontal{
+	align-items: normal;
 }

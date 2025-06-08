@@ -24,5 +24,6 @@
 .contenido_categoria{
 	gap: 20px;
 	justify-content: stretch;
+	align-items: normal;
 }
 
