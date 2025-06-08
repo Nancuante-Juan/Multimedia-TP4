@@ -4,6 +4,8 @@ body{
     flex-direction: column;
     align-items: center;
     width: 100%;
+    background-color: #17091c;
+    color: #efe1f4;
 }
 
 
@@ -21,8 +23,8 @@ nav{
     justify-content: space-between;
     padding: 10px 10px;
     font-weight: bold;
-    background-color: rgb(0, 50, 33);
-	color: white;
+    background-color: #17091c;
+	color: #efe1f4;
 	height: 100%;
 }
 ul{
@@ -35,13 +37,14 @@ ul li{
 }
 li>a{
 	list-style: none;
-	color: white;
+	color: #efe1f4;
     padding: 8px 20px;
 	text-decoration: none;
 }
 li>a:hover{
 	border-radius: 10px;
-	background-color: blue;
+	background-color: #b44cda;
+    color: #17091c;
 }
 
 /* CONTENIDO */
@@ -55,11 +58,11 @@ li>a:hover{
 }
 
 .boton{
-	color: white;
+	color: #17091c;
     padding: 8px 20px;
 	border-radius: 10px;
     text-align: center;
-	background-color: blue;
+	background-color: #b44cda;
     text-decoration: none;
     font-weight: 900;
 }
@@ -67,13 +70,22 @@ li>a:hover{
 .card{
 	border: 0;
 	border-radius: 10px;
+    background-color: #17091c;
+    color: #efe1f4;
 }
 .card>img{
-	border-radius: 10px;
+	border-radius: 10px 10px 0 0;
 
 }
 .card>.btn{
 	border-radius: 0 0 10px 10px;
+    background-color: #b44cda;
+    color: #17091c;
+    border: 0;
+    font-weight: 900;
+}
+.card-body>h5{
+    font-weight: 900;
 }
 h2{
     margin-bottom: 0;
