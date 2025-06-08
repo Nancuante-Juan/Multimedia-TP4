@@ -1,0 +1,13 @@
+.card{
+	background-color: #6f228b5e;
+}
+
+.principal{
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.horizontal{
+	gap: 20px;
+}
