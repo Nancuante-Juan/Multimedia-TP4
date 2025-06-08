@@ -48,7 +48,7 @@ li>a{
 li>a:hover{
 	border-radius: 20px;
     padding: 8px 40px;
-	background-color: #c98ddf;
+	background-color: #c98ddf !important;
     color: #17091c;
 }
 
