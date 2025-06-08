@@ -31,19 +31,24 @@ ul{
     list-style: none;
     padding: 0;
     margin: 0;
+    gap: 0;
 }
 ul li{
     display: inline-block;
+    gap: 0;
 }
 li>a{
+	border-radius: 10px;
 	list-style: none;
 	color: #efe1f4;
     padding: 8px 20px;
 	text-decoration: none;
+    transition: 0.3s;
 }
 li>a:hover{
-	border-radius: 10px;
-	background-color: #b44cda;
+	border-radius: 20px;
+    padding: 8px 40px;
+	background-color: #c98ddf;
     color: #17091c;
 }
 
@@ -65,6 +70,14 @@ li>a:hover{
 	background-color: #b44cda;
     text-decoration: none;
     font-weight: 900;
+    transition: 0.3s;
+}
+
+.boton:hover{
+	color: #17091c;
+    padding: 8px 40px;
+	border-radius: 20px;
+	background-color: #c98ddf;
 }
 
 .card{
@@ -83,6 +96,14 @@ li>a:hover{
     color: #17091c;
     border: 0;
     font-weight: 900;
+    transition: 0.3s;
+}
+.card>.btn:hover{
+    background-color: #c98ddf;
+}
+.card>.btn:active{
+    background-color: #c98ddf;
+    color: #17091c;
 }
 .card-body>h5{
     font-weight: 900;
