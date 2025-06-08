@@ -10,6 +10,9 @@ body{
 /* NAVBAR */
 header{
     width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 999;
 }
 nav{
     width: 100%;
@@ -41,14 +44,30 @@ li>a:hover{
 	background-color: blue;
 }
 
+/* CONTENIDO */
+
 .horizontal{
     display: flex;
 }
 
 .boton{
 	color: white;
-    padding: 10px;
+    padding: 10px 20px;
 	border-radius: 12px;
     text-align: center;
 	background-color: blue;
+    text-decoration: none;
+    font-weight: 900;
+}
+
+.card{
+	border: 0;
+	border-radius: 10px;
+}
+.card>img{
+	border-radius: 10px;
+
+}
+.card>.btn{
+	border-radius: 0 0 10px 10px;
 }
