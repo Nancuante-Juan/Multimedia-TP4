@@ -47,7 +47,6 @@ li>a{
 }
 li>a:hover{
 	border-radius: 20px;
-    padding: 8px 40px;
 	background-color: #c98ddf !important;
     color: #17091c;
     box-shadow: 0px 0px 48px #b44cda;
@@ -77,7 +76,6 @@ li>a:hover{
 
 .boton:hover{
 	color: #17091c;
-    padding: 8px 40px;
 	border-radius: 20px;
 	background-color: #c98ddf;
     box-shadow: 0px 0px 48px #b44cda;
