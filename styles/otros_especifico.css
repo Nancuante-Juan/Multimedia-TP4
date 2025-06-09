@@ -1,5 +1,5 @@
 .card{
-	background-color: #6f228b5e;
+	background-color: #6f228b28;
 }
 
 .principal{
@@ -30,7 +30,7 @@
 input{
 	padding: 4px 10px;
 	height: 36px;
-	background-color: #6f228b5e;
+	background-color: #6f228b28;
 	border: 2px solid #b44cda;
 	color: #b44cda;
 	border-radius: 24px;
@@ -39,7 +39,7 @@ input{
 select{
 	padding: 4px 10px;
 	height: 36px;
-	background-color: #6f228b5e;
+	background-color: #6f228b28;
 	border: 2px solid #b44cda;
 	color: #b44cda;
 	border-radius: 24px;
@@ -69,4 +69,7 @@ h6{
 
 .principal>.horizontal{
 	align-items: normal;
+}
+.card-img-top{
+    width: 320px;
 }

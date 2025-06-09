@@ -19,7 +19,7 @@
 	padding: 20px;
 	border-radius: 20px;
 	gap: 20px;
-	background-color: #6f228b5e;
+	background-color: #6f228b28;
 }
 .contenido_categoria{
 	gap: 20px;
@@ -27,3 +27,7 @@
 	align-items: normal;
 }
 
+
+.card-img-top{
+    width: 306.663px;
+}
