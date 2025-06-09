@@ -10,6 +10,13 @@ body{
 
 
 /* NAVBAR */
+.title{
+    display: flex;
+    align-items: center;
+}
+.title>h1{
+    margin-bottom: 0;
+}
 header{
     width: 100%;
     position: sticky;
