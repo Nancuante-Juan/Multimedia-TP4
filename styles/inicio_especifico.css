@@ -28,6 +28,10 @@
 }
 
 
-.card-img-top{
+.card-img-top .card .card-body{
     width: 306.663px;
+}
+
+h5{
+	width: 274.667px;
 }
